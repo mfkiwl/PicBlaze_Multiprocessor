@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Electronica\Desktop\ProyectoFinal\ExamenFinal\examen_Final\embedded_kcpsm3.ncd
+OUTFILE=C:\Users\Electronica\Desktop\ProyectoFinal\ExamenFinal\examen_Final\embedded_kcpsm3.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=C:\Users\Electronica\Desktop\ProyectoFinal\ExamenFinal\examen_Final
+LICENSE=WebPack
+USER_INFO=211028187_0_0_119

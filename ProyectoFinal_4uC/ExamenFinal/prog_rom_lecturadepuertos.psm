@@ -1,0 +1,19 @@
+LOAD s1,b01010101
+WRPRT s1,1
+LOAD s3,b11111111
+WRPRT s3,2
+LOAD s1,b00000000
+
+ciclo:
+RDPRT s0 0 ; Leemos del puerto 0
+WRPRT s0,1 ; Escribimos lo que leimos en el puerto 1
+ADD s1,1
+COMP s1,b00001111
+JUMP Z stop
+JUMP ciclo
+
+stop:
+LOAD s3,b00000000
+WRPRT s3, 2
+WRPRT s0,1 ; Escribimos lo que leimos en el puerto 1
+jump stop

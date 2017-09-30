@@ -1,0 +1,41 @@
+LOAD s1, b01010101
+WRPRT s1,1
+ciclo:
+RDPRT s0 0
+AND s0,b00000111 ;Start
+COMP s0,b00000001 ;Reviso si estaba apachado BTN0
+JUMP Z empezar ;Start
+COMP s0,b00000010 ;Reviso si estaba apachado BTN1
+JUMP Z parar ;Pause
+COMP s0,b00000100 ;Reviso si estaba apachado BTN2
+JUMP Z resetear ;Reset
+JUMP ciclo
+empezar:
+ADD s1,1
+WRPRT s1,1
+RDPRT s0 0
+AND s0,b00000111 ;AND
+COMP s0,b00000010 ;Reviso si estaba apachado BTN1
+JUMP Z parar ;Pause
+COMP s0,b00000100 ;Reviso si estaba apachado BTN2
+JUMP Z resetear ;Reset
+;JUMP perdertiempo
+JUMP empezar ;Start
+parar:
+RDPRT s0 0
+AND s0,b00000111 ;Start
+COMP s0,b00000001 ;Reviso si estaba apachado BTN0
+JUMP Z empezar ;Start
+COMP s0,b00000100 ;Reviso si estaba apachado BTN2
+JUMP Z resetear ;Reset
+JUMP parar
+resetear:
+SUB s1, s1
+JUMP ciclo
+
+;perdertiempo:
+;
+;LOAD s2,b11111111
+;SUB s2,1
+;JUMP Z empezar
+;JUMP perdertiempo

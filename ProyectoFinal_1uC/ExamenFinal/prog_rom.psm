@@ -1,0 +1,35 @@
+;s0 Registro que lee del puerto 0 de picoBlaze, tiene el numero del arreglo.
+;s1 Registro que escribe el resultado del programa en el puerto 1.
+;s2 Registro que escribe el enable para contar los ciclos en el puerto 2.
+;s3 Registro que guarda el valor del numero que queremos guardar en el arreglo.
+;s4 Registro que cuenta la posicion del arreglo en la que vamos.
+;s5 Registro que tiene el numero hasta el cual debemos verificar el arreglo.
+
+setup: ; Inicio del programa.
+LOAD s1,b00000000 ; Cargamos 00 en s1 (Para ver que el programa funciona).
+WRPRT s1,1 ; Escribe en el puerto 1 el resultado.
+LOAD s2,b11111111 ; Cargamos FF en s2
+WRPRT s2,2 ; Escribe en el puerto 2 el enable de ciclos.
+LOAD s3,b00000011 ; Colocamos el numero que queremos buscar, en este caso 3 DEC.
+LOAD s4,b00000000 ; Cargamos 0 en el contador
+LOAD s5,b11001000 ; s5 = 200.
+
+loop: ; subrutina que se debe ejecutar siempre.
+RDPRT s0 0 ; s0 = READ(PORT0).
+ADD s4,1 ; cont++. 
+COMP s0,s3 ; if(numero_del_arreglo == 3). 
+CALL Z increment ; increment().
+COMP s4,s5 ; if(s1 == 100).
+JUMP Z stop ; stop().
+WRPRT s1,1 ; WRITE(s1,PORT1).
+JUMP loop ; else jump().
+
+increment: ; subrutina que incrementa el contador s1.
+ADD s1,1 ;s1++.
+RET ; return
+
+stop: ; subrutina que termina el programa.
+LOAD s2,b00000000 ; s2 = 0.
+WRPRT s2,2 ;WRITE(s2,PORT2).
+WRPRT s1,1 ; WRITE(s1,PORT1).
+JUMP stop ; stop().

@@ -1,0 +1,6 @@
+MO embedded_kcpsm3 NULL embedded_kcpsm3.v vlg12/embedded__kcpsm3.bin 1506643731
+MO array_rom NULL array_rom.v vlg68/array__rom.bin 1506643731
+MO Reloj NULL Reloj.v vlg24/_reloj.bin 1506643731
+MO cicles_counter NULL cicles_counter.v vlg0A/cicles__counter.bin 1506643731
+MO prog_rom NULL prog_rom.v vlg41/prog__rom.bin 1506643731
+MO kcpsm3 NULL kcpsm3.v vlg19/kcpsm3.bin 1506643731

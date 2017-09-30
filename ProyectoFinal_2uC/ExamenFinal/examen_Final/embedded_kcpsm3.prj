@@ -1,0 +1,6 @@
+verilog work "Reloj.v"
+verilog work "prog_rom.v"
+verilog work "kcpsm3.v"
+verilog work "cicles_counter.v"
+verilog work "array_rom.v"
+verilog work "embedded_kcpsm3.v"

@@ -1,0 +1,15 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 28 15:28:00 2017
+
+drc -z embedded_kcpsm3.ncd embedded_kcpsm3.pcf
+
+WARNING:PhysDesignRules:367 - The signal <in_port_switches<0>_IBUF> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <in_port_switches<1>_IBUF> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <in_port_switches<2>_IBUF> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

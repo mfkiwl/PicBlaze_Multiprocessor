@@ -1,0 +1,407 @@
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/Lab4/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/lab4/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
+xst -intstyle ise -ifn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.xst" -ofn "C:/Users/Electronica/Desktop/ProyectoFinal/ExamenFinal/examen_Final/embedded_kcpsm3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2_100_250General.ucf -p xc3s250e-cp132-5 embedded_kcpsm3.ngc embedded_kcpsm3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o embedded_kcpsm3_map.ncd embedded_kcpsm3.ngd embedded_kcpsm3.pcf 
+par -w -intstyle ise -ol high -t 1 embedded_kcpsm3_map.ncd embedded_kcpsm3.ncd embedded_kcpsm3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml embedded_kcpsm3.twx embedded_kcpsm3.ncd -o embedded_kcpsm3.twr embedded_kcpsm3.pcf -ucf Basys2_100_250General.ucf 
+bitgen -intstyle ise -f embedded_kcpsm3.ut embedded_kcpsm3.ncd 
